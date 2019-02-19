@@ -1,0 +1,93 @@
+/*
+	Custom CSS for make-websites.co.uk
+		
+*/
+
+
+/*
+Site Footer
+---------------------------------------------------------------------------------------------------- */
+
+.site-footer {
+	padding: 10px 0;
+}
+
+a {
+    color: #314593;
+}
+
+body {
+	background-color: #f2f2f2;
+	height: 100%;
+	/*color: #797979;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.6;*/
+	
+    overflow-x: hidden;
+    letter-spacing: 0.005em;
+    color: #212121;
+     /*font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+   font-family: 'Poppins', sans-serif;*/
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.content {
+	padding-left:30px;
+	padding-right:10px;
+}
+
+.breadcrumb {
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+.site-header {
+	min-height: 80px;
+}
+.site-inner {
+	display:block;
+}
+
+.entry-title {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.breadcrumb {
+  background-color: #ffff;
+}
+
+.sidebar .enews-widget input[type="submit"] {
+			color: #ffff;
+		}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+.badge {
+	font-weight:normal;
+	font-size:85%;
+	font-style: italic;
+	padding:.35em;
+}
+
+.form-check-label {
+	margin-top:-20px;
+}
+
+/* Media specific */
+@media (min-width: 768px) {
+.content {
+	padding-right:30px;
+ } }
